@@ -13,6 +13,6 @@ jobs:
         with:
           node-version: "26"
       - name: Installe dependencies
-        run: npm installe
+        run: npm install
       - name: check styles
         run: npm run eslint
